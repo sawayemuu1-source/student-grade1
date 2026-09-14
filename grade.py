@@ -7,3 +7,8 @@ average_mark = (first_mark + second_mark) / 2
 print("Student Name:", student_name)
 print("Total Mark:", total_mark)
 print("Average Mark:", average_mark)
+
+if average_mark >= 50:
+    print("Result: Pass")
+else:
+    print("Result: Fail")
